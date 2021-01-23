@@ -40,7 +40,8 @@ def add_s(array)
     if i != 1
       array1 = []
       array1 << item = "#{item}s"
+      array1
     end
   end
-  array1
+
 end
