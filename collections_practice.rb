@@ -29,13 +29,7 @@ string_array.join
 end
 
 def find_a(array)
-  array.each do |i|
-    new_array = []
-    if i.start_with?("a"||"A")
-      new_array << i
-      new_array
-    end
-  end
+  array.select {|w| w.start_with?("A"||"a")}
 end
 
 def sum_array(array)
