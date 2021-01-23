@@ -45,4 +45,5 @@ def add_s(array)
     new_array = []
     new_array << i == 1 ? item : item + "s"
     new_array
+  end
 end
