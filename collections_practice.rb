@@ -29,9 +29,8 @@ string_array.join
 end
 
 def find_a(array)
-  new = []
- array.select {|w| w.start_with?("A", "a")}
-  new
+ array.collect {|w| w.start_with?("A", "a")}
+
 end
 
 def sum_array(array)
