@@ -29,7 +29,7 @@ string_array.join
 end
 
 def find_a(array)
-  array.collect do |i|
+  array.map do |i|
     if i.start_with?("a"||"A")
       i
     end
@@ -41,5 +41,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.map {|item, i|i == 1 ? item : item + "s"}
+  array.each_with_index.map {|item, i| i == 1 ? item : item + "s"}
 end
