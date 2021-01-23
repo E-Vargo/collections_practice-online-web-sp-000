@@ -29,7 +29,7 @@ string_array.join
 end
 
 def find_a(array)
- array.collecct {|w| w.match(/\b[a]\w*/i)}
+ array.collect {|w| w.match(/\b[a]\w*/i)}
 
 end
 
