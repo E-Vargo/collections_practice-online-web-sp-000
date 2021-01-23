@@ -30,7 +30,6 @@ end
 
 def find_a(array)
  array.select {|w| w.match(/\b[a]\w*/i)}
-
 end
 
 def sum_array(array)
