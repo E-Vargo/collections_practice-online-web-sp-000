@@ -29,9 +29,9 @@ string_array.join
 end
 
 def find_a(array)
-  array.collect do |i| 
+  array.collect do |i|
     if i.start_with?("a"||"A")
-      return i 
+      return i
     end
   end
 end
