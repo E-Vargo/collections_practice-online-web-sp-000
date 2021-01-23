@@ -20,7 +20,7 @@ array.reverse
 end
 
 def kesha_maker(array)
-  array.collect {|i| i = "#{i.match/\w{2}/i}$#{i.match/\w*/i}"}
+  array.collect {|i| i = "#{i.match(/\w{2}/i)}$#{i.match(/\w*/i)}"}
 
 end
 
