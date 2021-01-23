@@ -43,7 +43,7 @@ end
 def add_s(array)
   array.each_with_index do |item, i|
     new_array = []
-    new_array << i == 1 ? item : item + "s"
+    new_array << (i == 1 ? item : item + "s")
     new_array
   end
 end
