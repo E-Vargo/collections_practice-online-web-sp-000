@@ -29,9 +29,11 @@ string_array.join
 end
 
 def find_a(array)
-  array.map do |i|
+  array.each do |i|
+    new_array = []
     if i.start_with?("a"||"A")
-      i
+      new_array << i
+      new_array
     end
   end
 end
