@@ -30,7 +30,7 @@ end
 
 def find_a(array)
   new = []
-  new << array.select {|w| w.start_with?("A"||"a")}
+ array.select {|w| new << w.start_with?("A"||"a")}
   new
 end
 
