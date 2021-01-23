@@ -43,14 +43,5 @@ end
 def add_s(array)
   array.collect do |item|
 item = "#{item}s" unless item = array[1]
-
-
-
-    if i != 1
-      array1 = []
-      array1 << item = "#{item}s"
-      array1
-    end
   end
-
 end
