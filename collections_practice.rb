@@ -41,7 +41,11 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index do |item, i|
+  array.collect do |item|
+item = "#{item}s" unless item = array[1]
+
+
+
     if i != 1
       array1 = []
       array1 << item = "#{item}s"
