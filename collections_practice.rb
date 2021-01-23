@@ -41,6 +41,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index {|item, i| i == 1 ? item : item + "s"}
+  array.each_with_index do |item, i|
+    new_array = []
+    new_array << i == 1 ? item : item + "s"
 
 end
