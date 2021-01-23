@@ -28,6 +28,7 @@ string_array.join
 end
 
 def find_a(array)
+  array.collect{|i| i.match(/\b[a]/i)}
 
 end
 
