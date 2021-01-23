@@ -29,7 +29,7 @@ string_array.join
 end
 
 def find_a(array)
-  array.collect{|i| i.start_with("a"||"A")}
+  array.collect{|i| i.start_with?("a"||"A")}
 
 end
 
