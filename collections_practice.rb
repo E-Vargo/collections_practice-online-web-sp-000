@@ -32,6 +32,7 @@ def find_a(array)
   array.collect do |i|
     if i.start_with?("a"||"A")
       i
+    end
   end
 end
 
